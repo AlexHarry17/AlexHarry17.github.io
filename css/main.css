@@ -3,33 +3,14 @@
     background-color: floralwhite
 }
 
-.header {
-    font-size: 500%;
-    color: dodgerblue;
-    font-weight: bolder
-}
 
-@keyframes fadeIn {
-    from {
-        opacity: 0
-    }
 
-    to {
-        opacity: 1
-    }
-}
 
-.fadeInAnimate {
-    opacity: 0;
-    animation: fadeIn 5s forwards;
-}
 
-#second_animation {
-    animation-delay: 1.5s;
-}
 
 .p {
-    color: black
+    color: black;
+    padding-left: 0;
 }
 
 
@@ -39,6 +20,12 @@
 
 h1 {
     color: dodgerblue;
+    font-weight: bold;
+}
+
+#head {
+    text-align: center;
+    font-size: 500%;
     font-weight: bold;
 }
 
